@@ -1,3 +1,4 @@
+package treino;
 import java.util.Scanner;
 
 public class PositivoNegativo {
