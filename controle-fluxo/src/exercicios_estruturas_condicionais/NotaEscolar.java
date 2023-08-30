@@ -1,4 +1,4 @@
-package treino;
+package exercicios_estruturas_condicionais;
 /*Faça um programa para a leitura de duas notas parciais de um aluno.  
 
 A mensagem “Aprovado”, se a média alcançada for maior ou igual a sete;

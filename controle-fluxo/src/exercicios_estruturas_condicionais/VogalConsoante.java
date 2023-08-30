@@ -1,4 +1,4 @@
-package treino;
+package exercicios_estruturas_condicionais;
 
 import java.util.Scanner;
 

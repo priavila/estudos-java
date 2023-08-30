@@ -1,4 +1,4 @@
-package treino;
+package exercicios_estruturas_condicionais;
 
 public class Genero {
     public static void main(String[] args) {
