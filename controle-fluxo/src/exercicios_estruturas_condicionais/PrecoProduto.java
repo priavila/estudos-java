@@ -3,6 +3,12 @@ import java.util.Scanner;
 import java.util.Locale;
 
 //Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar, sabendo que a decisão é sempre o mais barato.  
+/* possibilidades: 
+ *      preco1 < preco2 e preco1 < preco3 
+ *      preco2 < preco1 e preco2 < preco3
+ *      preco3 < preco2 e preco3 < preco1
+ */
+
 public class PrecoProduto {
     public static void main(String[] args) {
         
@@ -20,7 +26,7 @@ public class PrecoProduto {
         if(preco1 < preco2 && preco1 < preco3)
             System.out.println("Você deve comprar o Produto 1");
 
-        else if(preco2 < preco3)
+        else if(preco2 < preco1 && preco2 < preco3)
             System.out.println("Você deve comprar o Produto 2");
 
         else
